@@ -1,0 +1,25 @@
+body {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#title-container {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 900px;
+}
+
+#title-text {
+    font-family: sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 1.25em;
+    text-align: center;
+}
